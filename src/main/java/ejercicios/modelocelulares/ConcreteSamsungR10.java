@@ -1,8 +1,8 @@
 package ejercicios.modelocelulares;
 
-public class ConcreteCelular {
+public class ConcreteSamsungR10 {
 
-    private String tamanioCM;
+    private int tamanioCM;
     private String cpu;
     private String memoryGB;
     private String sim;
@@ -13,14 +13,14 @@ public class ConcreteCelular {
     private String tipoBateria;
     private String accesorios;
 
-    public ConcreteCelular() {
+    public ConcreteSamsungR10() {
     }
 
-    public String getTamanioCM() {
+    public int getTamanioCM() {
         return tamanioCM;
     }
 
-    public void setTamanioCM(String tamanioCM) {
+    public void setTamanioCM(int tamanioCM) {
         this.tamanioCM = tamanioCM;
     }
 
@@ -98,7 +98,7 @@ public class ConcreteCelular {
 
     @Override
     public Object clone() {
-        ConcreteCelular clone= new ConcreteCelular();
+        ConcreteSamsungR10 clone= new ConcreteSamsungR10();
         clone.setTamanioCM(this.getTamanioCM());
         clone.setMemoryGB(this.getMemoryGB());
         clone.setCpu(this.getCpu());
