@@ -1,2 +1,6 @@
-package ejercicios.pasajesAbstract;public interface Pasaje {
+package ejercicios.pasajesAbstract;
+
+public interface Pasaje {
+
+    void showInfo();
 }
