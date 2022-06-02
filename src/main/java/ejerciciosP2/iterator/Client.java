@@ -74,6 +74,9 @@ public class Client {
         for(int i=0; i<map.size();i++){
             System.out.println(map.get(i));
         }
+        for (int key:map.keySet()) {
+            System.out.println("Mapa: "+map.get(key).getModelo());
+        }
 
     }
 

@@ -1,11 +1,12 @@
-package mediator.example;
+package ejerciciosP2.mediator;
 
 public abstract class Persona {
-    protected ICanalComunication canalComunication;
+    protected ICanalDeComunicacion canalComunication;
     private String ci;
     private String name;
     private String cargo;
-    public Persona(ICanalComunication canalComunication){
+    
+    public Persona(ICanalDeComunicacion canalComunication){
         this.canalComunication=canalComunication;
     }
 

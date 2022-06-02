@@ -1,8 +1,8 @@
-package mediator.example;
+package ejerciciosP2.mediator;
 
 public class Profesional extends Persona{
 
-    public Profesional(ICanalComunication canalComunication) {
+    public Profesional(ICanalDeComunicacion canalComunication) {
         super(canalComunication);
     }
 
@@ -13,7 +13,7 @@ public class Profesional extends Persona{
 
     @Override
     public void received(String msg) {
-        System.out.println("INFO> cargo: "+getCargo()+ " ci: "+getCi()+" name: "+getName());
-        System.out.println("INFO> received "+msg);
+        System.out.println("INFO-->cargo: "+getCargo()+ " ci: "+getCi()+" name: "+getName());
+        System.out.println("INFO--> received "+msg);
     }
 }

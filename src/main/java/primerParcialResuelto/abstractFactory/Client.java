@@ -3,7 +3,7 @@ package primerParcialResuelto.abstractFactory;
 public class Client {
     public static void main(String []args){
 
-        Electronicos ele= FactoryElectronicos.make("radio");
+        Electronicos ele= FactoryElectronicos.make("microondas");
 
         ele.showInfo();
         encenderse(ele);
@@ -17,4 +17,5 @@ public class Client {
     }
     private static void mostrarInterfaz(Electronicos electronicos) {
     }
+
 }

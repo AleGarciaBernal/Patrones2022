@@ -1,5 +1,5 @@
-package mediator.structure;
+package ejerciciosP2.mediator;
 
-public interface Mediator {
-    void send(String msg, Colleague colleague);
+public interface ICanalDeComunicacion {
+    void send(String msg, Persona persona);
 }
