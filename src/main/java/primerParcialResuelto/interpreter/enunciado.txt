@@ -1,0 +1,17 @@
+Se tiene un lenguaje que se desea crear (interpretar), que consiste en
+interpretar las operaciones matemáticas de suma y multiplicación, tomando en cuenta que la
+operación de multiplicación siempre esta al inicio de la cadena
+ejemplo: 2 * 3 + 5 + 5 + 5
+resultado: 21
+
+********************
+
+CONTEXT-------------------------- input string
+                                  output int
+                                  signo int
+
+ABSTRACTION EXPRESSION------------ Operaciones
+TERMINAL EXPRESSION--------------- Numeros/signos(suma y multiplicacion)
+NON TERMINAL EXPRESSION----------- Interpreter
+
+
