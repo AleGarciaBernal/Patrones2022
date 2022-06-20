@@ -9,7 +9,6 @@ public class Client {
         tienda.addRopa(new Ropa("Camisa", 150));
         tienda.addRopa(new Ropa("Medias", 35));
 
-
         tienda.setStrategy(new EstrategiaVerano());
         tienda.execute();
     }
