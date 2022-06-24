@@ -1,0 +1,29 @@
+package ejerciciosP3.composite.tarea;
+
+public class Computadora extends Component{
+
+    public Computadora(String type) {
+        super(type);
+    }
+
+    @Override
+    public void operation() {
+        this.showInfo();
+
+    }
+
+    @Override
+    public void add(Component component) {
+
+    }
+
+    @Override
+    public void remove(Component component) {
+
+    }
+
+    @Override
+    public Component getChild(int position) {
+        return null;
+    }
+}
